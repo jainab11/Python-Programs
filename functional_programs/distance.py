@@ -8,7 +8,7 @@ def distance(num1, num2):
 def main():
     x = int(input("Enter first number : "))
     y = int(input("Enter second number : "))
-    print(f"Eculiden distance of {x}, {y}  to the origin(0,0) is {distance(x, y)}  ")
+    print(f"Eculidean distance of {x}, {y}  to the origin(0,0) is {distance(x, y)}  ")
 
 if __name__ == "__main__":
     main()
