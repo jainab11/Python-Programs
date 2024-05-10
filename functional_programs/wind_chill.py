@@ -10,7 +10,7 @@ def wind_chill(temp, speed):
         print("Invalid input values. Temperature must be less than 50 in absolute value, and wind speed must be between 3 and 120.")
         return None
 
-    wind_chill = 35.74 + 0.6215 * t - 35.75 * math.pow(v, 0.16) + 0.4275 * t * math.pow(v, 0.16)
+    wind_chill = 35.74 + 0.6215 * temp - 35.75 * math.pow(speed, 0.16) + 0.4275 * temp * math.pow(speed, 0.16)
     return wind_chill
 
 def main():
